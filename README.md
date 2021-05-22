@@ -34,4 +34,4 @@ In order to use a template you must first install [MayaJS CLI](https://github.co
 maya new project-name --template=template-name
 ```
 
-> NOTE: If you must provide a valid template name
+> NOTE: You must provide a valid template name

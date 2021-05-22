@@ -1,1 +1,13 @@
-{}
+{
+  "test": {
+    "author": "Mack Ignacio",
+    "description": "test",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "cli": "0.5.3",
+        "url": "https://github.com/macign/mayajs-sample.git"
+      }
+    ]
+  }
+}

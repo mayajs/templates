@@ -8,38 +8,38 @@ export class SampleController {
   constructor(private services: SampleServices) {}
 
   @Post()
-  async createUsers({ body }: MayaJsContext): Promise<any> {
-    // Create a Users
-    return { message: "From UsersController POST route", body };
+  async createSample({ body }: MayaJsContext): Promise<any> {
+    // Create a Sample
+    return { message: "From SampleController POST route", body };
   }
 
   @Get()
-  async readUsers(): Promise<any> {
-    // Read all Users list
-    return `<h2>TEST</h2>`;
+  async readSample(): Promise<any> {
+    // Read all Sample list
+    return { message: "From SampleController GET route" };
   }
 
   @Get("/:id")
-  async readUsersByID({ params }: MayaJsContext): Promise<any> {
-    // Read Users by ID from list
-    return { message: "From UsersController GET route with params ID", params };
+  async readSampleByID({ params }: MayaJsContext): Promise<any> {
+    // Read Sample by ID from list
+    return { message: "From SampleController GET route with params ID", params };
   }
 
   @Put("/:id")
-  async replaceUsers({ body, params }: MayaJsContext): Promise<any> {
-    // Replace Users from list
-    return { message: "From UsersController PUT route", body, params };
+  async replaceSample({ body, params }: MayaJsContext): Promise<any> {
+    // Replace Sample from list
+    return { message: "From SampleController PUT route", body, params };
   }
 
   @Patch("/:id")
-  async updateUsers({ body, params }: MayaJsContext): Promise<any> {
-    // Update Users from list
-    return { message: "From UsersController PATCH route", body, params };
+  async updateSample({ body, params }: MayaJsContext): Promise<any> {
+    // Update Sample from list
+    return { message: "From SampleController PATCH route", body, params };
   }
 
   @Delete("/:id")
-  async deleteUsers({ params }: MayaJsContext): Promise<any> {
-    // Delete Users from list
-    return { message: "From UsersController DELETE route", params };
+  async deleteSample({ params }: MayaJsContext): Promise<any> {
+    // Delete Sample from list
+    return { message: "From SampleController DELETE route", params };
   }
 }

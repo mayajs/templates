@@ -1,12 +1,12 @@
 {
-  "test": {
+  "sql": {
     "author": "Mack Ignacio",
-    "description": "test",
+    "description": "MayaJS SQL Template",
     "versions": [
       {
         "version": "1.0.0",
         "cli": "0.5.3",
-        "url": "https://github.com/macign/mayajs-sample.git"
+        "url": "https://github.com/macign/Mayajs-Sql-Template.git"
       }
     ]
   }

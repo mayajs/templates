@@ -9,5 +9,16 @@
         "url": "https://github.com/macign/Mayajs-Sql-Template.git"
       }
     ]
+  },
+  "mongo": {
+    "author": "Ron Jones",
+    "description": "MayaJS MongoDB Template",
+    "versions": [
+      {
+        "version": "1.0.0",
+        "cli": "0.5.3",
+        "url": "https://github.com/rauschlobiano/Mayajs-Mongo-Template.git"
+      }
+    ]
   }
 }

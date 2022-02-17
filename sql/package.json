@@ -1,0 +1,28 @@
+{
+  "name": "mayajs-sql-template",
+  "version": "0.0.0",
+  "description": "Mayajs Sql Template MayaJS Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "maya s",
+    "build": "maya b"
+  },
+  "keywords": [
+    "mayajs-sql-template"
+  ],
+  "dependencies": {
+    "@mayajs/common": "^0.6.0",
+    "@mayajs/core": "^0.6.2",
+    "@mayajs/mongo": "^0.5.1",
+    "@mayajs/router": "^0.6.4",
+    "@mayajs/sql": "^0.3.0",
+    "dotenv": "^10.0.0",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "@mayajs/cli": "^0.5.2",
+    "@types/node": "^14.0.14",
+    "@types/validator": "^13.6.2",
+    "typescript": "^3.9.6"
+  }
+}

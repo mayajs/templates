@@ -1,24 +1,10 @@
 {
   "sql": {
     "author": "Mack Ignacio",
-    "description": "MayaJS SQL Template",
-    "versions": [
-      {
-        "version": "1.0.0",
-        "cli": "0.5.3",
-        "url": "https://github.com/macign/Mayajs-Sql-Template.git"
-      }
-    ]
+    "description": "MayaJS SQL Template"
   },
   "mongo": {
     "author": "Ron Jones",
-    "description": "MayaJS MongoDB Template",
-    "versions": [
-      {
-        "version": "1.0.0",
-        "cli": "0.5.3",
-        "url": "https://github.com/rauschlobiano/Mayajs-Mongo-Template.git"
-      }
-    ]
+    "description": "MayaJS MongoDB Template"
   }
 }

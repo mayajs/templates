@@ -18,7 +18,6 @@
   "dependencies": {
     "@mayajs/common": "^0.6.0",
     "@mayajs/core": "^0.6.2",
-    "@mayajs/mongo": "^0.5.1",
     "@mayajs/router": "^0.6.4",
     "@mayajs/sql": "^0.3.0",
     "dotenv": "^10.0.0",

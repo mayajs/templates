@@ -1,7 +1,7 @@
 {
-  "name": "mayajs-sql-template",
+  "name": "mayajs",
   "version": "0.0.0",
-  "description": "Mayajs Sql Template MayaJS Project",
+  "description": "Mayajs Project",
   "main": "index.js",
   "scripts": {
     "start": "maya s",

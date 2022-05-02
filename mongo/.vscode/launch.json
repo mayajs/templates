@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "outputCapture": "console",
+      "name": "Start MayaJS",
+      "request": "launch",
+      "restart": true,
+      "runtimeExecutable": "maya",
+      "args": ["serve"],
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    }
+  ]
+}
